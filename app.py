@@ -45,7 +45,7 @@ def halaman_awal():
 
     return render_template('index.html', hasil=result)
 
-@app.route('/home')
+@app.route('/')
 def halaman_home():
     return render_template('zhome.html')
 
